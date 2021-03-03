@@ -19,6 +19,16 @@ header {
   margin: 0 30px 30px;
   text-align: -webkit-center;
 }
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
 h1{font-family: serif;
   text-align:center;
   font-size: 100px;
