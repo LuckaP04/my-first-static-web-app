@@ -17,7 +17,7 @@ html, body {
 header {
   font-family: serif;
   margin: 0 30px 30px;
-  text-align:center;
+  text-align: justify-all;
 }
 h1{font-family: serif;
   text-align:center;
@@ -28,7 +28,7 @@ h1{font-family: serif;
 }
 h2,h3{
   color:rgb(119, 78, 78);
-  text-align: -webkit-left;
+  text-align: center;
   font-size: 48px;
   font-style: italic;
   font-family: serif;
