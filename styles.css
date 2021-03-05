@@ -45,7 +45,16 @@ li a:hover {
   background-color: #111;
 }
 
-h1{font-family: serif;
+div{
+display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+h1 {font-family: serif;
   text-align: -webkit-left;
   font-size: 50px;
   font-style:italic;
