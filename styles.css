@@ -80,8 +80,8 @@ p {
 
 /* Style the links inside the navigation bar */
 .search a {
-  float: left;
-  display: block;
+  float: top;
+  display: inline-block;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -103,12 +103,12 @@ p {
 
 /* Style the search box inside the navigation bar */
 .search input[type=text] {
-  float: right;
+  float: top;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
