@@ -64,6 +64,12 @@ p {
   font-family: serif;
   text-align: -webkit-left;
   font-style: italic;
-  color: rgb(240, 230, 230);
+  color: rgb(119, 78, 78);
   padding-top: 30px;
+}
+.column.side {
+  width: 25%;
+  float: left;
+  padding: 10px;
+  height: 300px;
 }
