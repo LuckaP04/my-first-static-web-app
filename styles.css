@@ -18,6 +18,7 @@ header {
   font-family: serif;
   margin: 0 30px 30px;
   text-align: -webkit-center;
+  background-color: #333;
 }
 ul {
   list-style-type: none;
