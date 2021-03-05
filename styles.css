@@ -46,8 +46,8 @@ li a:hover {
 }
 
 h1{font-family: serif;
-  text-align:center;
-  font-size: 100px;
+  text-align:left;
+  font-size: 50px;
   font-style:italic;
   color:rgb(240, 230, 230);
   padding-top: 30px;
