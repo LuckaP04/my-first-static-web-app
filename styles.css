@@ -59,3 +59,10 @@ h2,h3{
   font-style: italic;
   font-family: serif;
 }
+p {
+  font-family: serif;
+  text-align: -webkit-left;
+  font-style: italic;
+  color: rgb(240, 230, 230);
+  padding-top: 30px;
+}
