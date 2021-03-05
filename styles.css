@@ -85,7 +85,7 @@ background-color: #333;
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
-  display: block;
+  display: inline-block;
 }
 
 
@@ -141,7 +141,7 @@ p {
 
 /* Style the links inside the navigation bar */
 .search a {
-  float:left;
+  float:top;
   display: inline-block;
   color: black;
   text-align: left;
@@ -166,7 +166,7 @@ p {
 
 /* Style the search box inside the navigation bar */
 .search input[type=text] {
-  float: left;
+  float: top;
   padding: 6px;
   border: #333333;
   margin-top: 2px;
