@@ -33,6 +33,7 @@ background-color: #333;
   text-align: center;
   padding: 14px 16px;
   font-style:italic;
+  font-family: sans-serif;
 }
 
 /* The subnavigation menu */
@@ -44,12 +45,12 @@ background-color: #333;
 /* Subnav button */
 .subnav .subnavbtn {
   font-size: 16px;
-  border: none;
+  border-left:10px;
   outline: none;
   color: rgb(240, 230, 230);
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: sans-serif;
   margin: 0 10px 20px;
 }
 
@@ -89,6 +90,7 @@ background-color: #333;
 
 .kosik {
   overflow: hidden;
+  float: right;
   background-color: #333;
 
 }
