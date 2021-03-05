@@ -113,6 +113,7 @@ p {
   margin-block-end: 2px;
   margin-right: 16px;
   font-size: 20px;
+  background-color:rgb(240, 230, 230) ;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
