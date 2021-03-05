@@ -33,7 +33,7 @@ background-color: #333;
   text-align: center;
   padding: 14px 16px;
   font-style:italic;
-  font-family: sans-serif;
+
 }
 
 /* The subnavigation menu */
@@ -57,7 +57,7 @@ background-color: #333;
 
 /* Add a red background color to navigation links on hover */
 .nav a:hover, .subnav:hover .subnavbtn {
-  background-color: white ;
+  background-color: #313131 ;
 
 }
 
@@ -66,7 +66,7 @@ background-color: #333;
   display: none;
   position: absolute;
   left: 0;
-  background-color:#373737;
+  background-color: #333333;
   width: 100%;
   z-index: 1;
 }
@@ -75,12 +75,12 @@ background-color: #333;
 .subnav-content a {
   float: left;
   color: rgb(240, 230, 230);
-  font-style:italic;
+
 }
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color: #333333;
+  background-color: #313131;
   color: white;
 }
 
