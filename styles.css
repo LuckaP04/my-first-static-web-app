@@ -20,13 +20,13 @@ background-color: #333;
 }
 
 /* The navigation menu */
-.navbar {
+.nav {
   overflow: hidden;
   background-color: #333;
 }
 
 /* Navigation links */
-.navbar a {
+.nav a {
   float: left;
   font-size: 16px;
   color: rgb(240, 230, 230);
@@ -93,7 +93,6 @@ background-color: #333;
 
 }
 .kosik a {
-  float: left;
   font-size: 16px;
   color: rgb(240, 230, 230);
   text-align: center;
