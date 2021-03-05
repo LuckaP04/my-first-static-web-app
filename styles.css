@@ -76,7 +76,7 @@ p {
 /* Add a black background color to the top navigation bar */
 .search {
   overflow: hidden;
-  background-color: white;
+  background-color: black;
 }
 
 /* Style the links inside the navigation bar */
