@@ -38,6 +38,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 8px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -46,7 +47,7 @@ li a:hover {
 }
 
 h1{font-family: serif;
-  text-align: left;
+  left: 25px;
   font-size: 50px;
   font-style:italic;
   color:rgb(240, 230, 230);
