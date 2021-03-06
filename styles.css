@@ -219,7 +219,7 @@ p {
 }
 
 .column img:hover {
-  filter:grayscale(100);
+  filter:grayscale(50);
   transform:scale(1.1);
 }
 
