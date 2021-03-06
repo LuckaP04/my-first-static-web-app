@@ -60,27 +60,27 @@
       </nav>
     </section>
 
+    <div class="slideshow">
+      <img src="obr1.png" NAME="slide" width="1550" height="450"  />
+      <SCRIPT>
+        var step=1
+        function slideit(){
+          if (!document.images)
+            return
+          document.images.slide.src=eval("image"+step+".src")
+          if (step<2)
+            step++
+          else
+            step=1
+          setTimeout("slideit()",4000)
+        }
+        slideit()
+        //-->
+      </SCRIPT>
 
 
   </header>
 
-<div class="slideshow">
-  <img src="obr1.png" NAME="slide" width="1850" height="450"  />
-  <SCRIPT>
-    var step=1
-    function slideit(){
-      if (!document.images)
-        return
-      document.images.slide.src=eval("image"+step+".src")
-      if (step<2)
-        step++
-      else
-        step=1
-      setTimeout("slideit()",4000)
-    }
-    slideit()
-    //-->
-  </SCRIPT>
 </div>
 
 
