@@ -198,13 +198,14 @@ p {
 }
 
 
-* {box-sizing: border-box}
+
 .mySlides {display: none}
-img {horiz-align: center;}
+img {horiz-align: center;
+  box-sizing: border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100px;
   position: relative;
 
 }
