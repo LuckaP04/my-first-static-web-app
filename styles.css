@@ -200,6 +200,7 @@ p {
 
 
 
-.slideshow { float: left;
+.slideshow { float: top;
+  margin: 0 10px 10px;
 
 }
