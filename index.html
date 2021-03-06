@@ -66,39 +66,20 @@
 
 
 
-<div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 2</div>
-    <img src="obr3.png" style="width:100%">
-  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 2</div>
-    <img src="obr2.png" style="width:100%">
-  </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- Začiatok HTMLky.szm.com SlideShow START -->
-<!-- HTMLky.szm.com == SlideShow vložte sem URL 1. obrázku ktorý chcete mať v slideshow a rozmery celej SlideShow (aktuálne sú 700x390px -->
 <img src="obr1.png" NAME="slide" width="700" height="390" />
 <SCRIPT>
-  <!--
-  //HTMLky.szm.com == zmena obrázkov medzi nimy
   var step=1
   function slideit(){
     if (!document.images)
       return
     document.images.slide.src=eval("image"+step+".src")
-    if (step<2) //HTMLky.szm.com == nezabudnite nastaviť počet obrázkov (aktuálne 4), zmente šíslo za (step<4) podľa toho koľko máte obrázkov !
+    if (step<2)
       step++
     else
       step=1
-    setTimeout("slideit()",2500) //HTMLky.szm.com == čas prepínania obrázkov milisekundách (aktuálne 2500), môžete si ho ľubovolne nastaviť
+    setTimeout("slideit()",4000)
   }
   slideit()
   //-->
