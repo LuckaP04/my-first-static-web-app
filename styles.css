@@ -32,7 +32,7 @@ background-color: #333;
   color: rgb(240, 230, 230);
   text-align: center;
   padding: 14px 16px;
-
+text-decoration: none;
 
 }
 
@@ -46,11 +46,12 @@ background-color: #333;
 /* Subnav button */
 .subnav .subnavbtn {
   font-size: 16px;
-  border-left: none;
+  border: none;
   outline: none;
   color: rgb(240, 230, 230);
   padding: 14px 16px;
   background-color: inherit;
+  font-family: inherit;
   margin: 0 20px 20px;
 }
 
@@ -74,25 +75,27 @@ background-color: #333;
 .subnav-content a {
   float: left;
   color: rgb(240, 230, 230);
+  text-decoration: none;
 
 }
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color: #313131;
+  background-color: #333333;
   color: white;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
-  display: inline-block;
+  display: block;
+
 }
 
 
 .kosik {
   overflow: hidden;
   float: right;
-  background-color: #333;
+
 
 }
 .kosik a {
@@ -100,9 +103,9 @@ background-color: #333;
   color: rgb(240, 230, 230);
   text-align: right;
   padding: 14px 16px;
-  font-style:italic; }
-
-
+  font-style:italic;
+background-color: #333;
+}
 
 h1{font-family: serif;
   text-align: left;
