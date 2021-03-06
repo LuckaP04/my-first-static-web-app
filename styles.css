@@ -215,7 +215,7 @@ p {
   transition: 1s;
   cursor: pointer;
   padding: 15px;
-  width: 100px;
+  width: 200px;
 }
 
 .column img:hover {
