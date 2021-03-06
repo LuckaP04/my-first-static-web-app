@@ -232,7 +232,7 @@ p {
 
 /* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
-  position: relative;
+  position: center;
   display: none;
 }
 
@@ -247,7 +247,7 @@ p {
 
 /* Closable button inside the image */
 .closebtn {
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 15px;
   color: white;
