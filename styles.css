@@ -206,9 +206,11 @@ p {
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
-  float: top;
+  float: left;
   width: 100px;
+  height: 100px;
   padding: 10px;
+  margin-block: 10px 10px;
 }
 
 /* Style the images inside the grid */
