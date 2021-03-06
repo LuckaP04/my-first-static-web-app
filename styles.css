@@ -206,8 +206,8 @@ p {
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 1%;
+  float: top;
+  width: 100px;
   padding: 10px;
 }
 
