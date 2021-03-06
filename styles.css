@@ -52,7 +52,7 @@ text-decoration: none;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+  margin: 0 20px 20px;
 }
 
 /* Add a red background color to navigation links on hover */
@@ -69,6 +69,7 @@ text-decoration: none;
   background-color: #333333;
   width: 100%;
   z-index: 1;
+  margin: 0 20px 20px;
 }
 
 /* Style the subnav links */
