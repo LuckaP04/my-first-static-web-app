@@ -206,21 +206,21 @@ p {
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 10%;
-  horiz-align: center;
-  padding: 10px;
+  margin: 10px 50px;
 
 }
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.8;
+  transition: 1s;
   cursor: pointer;
+  padding: 15px;
+  width: 100px;
 }
 
 .column img:hover {
-  opacity: 1;
+  filter:grayscale(100);
+  transform:scale(1.1);
 }
 
 /* Clear floats after the columns */
