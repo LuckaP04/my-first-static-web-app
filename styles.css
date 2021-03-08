@@ -237,12 +237,6 @@ p {
   margin: 0 auto;
 
 }
-
-.column1 {
-  margin: 10px 50px;
-  float: left;
-}
-
 /* Style the images inside the grid */
 .column1 img {
   transition: 1s;
@@ -265,7 +259,8 @@ p {
 .column1 {
   text-align: center;
   width:250px;
-
+  margin: 10px 50px;
+  float: left;
 }
 
 .column1 img {
