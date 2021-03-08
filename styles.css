@@ -238,11 +238,47 @@ p {
   margin: 0 auto;
 
 }
-.man{
-  text-align:center;
+.man {
+  text-align: center;
+}
+.column1 {
+  margin: 10px 50px;
+  float: left;
+}
 
+/* Style the images inside the grid */
+.column1 img {
+  transition: 1s;
+  cursor: pointer;
+  padding: 15px;
+  width: 250px;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-color: #333333;
+  border-radius: 5px;
 
 }
+
+.column1 img:hover {
+  filter:grayscale(50);
+  transform:scale(1.1);
+}
+
+
+.column1 {
+  text-align: justify;
+  width:250px;
+
+}
+
+.column1 img {
+  display: block;
+  margin: 0 auto;
+
+}
+
+
 footer{
   float: left;
   padding-left: 5px;
