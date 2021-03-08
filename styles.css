@@ -204,7 +204,8 @@ p {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   margin: 10px 50px;
-
+  text-align: justify;
+  width:250px;
 
 }
 
@@ -219,7 +220,8 @@ p {
   border-style: solid;
   border-color: #333333;
   border-radius: 5px;
-
+  display: block;
+  margin: 0 auto;
 }
 
 .column img:hover {
@@ -229,11 +231,9 @@ p {
 
 
 .column {
-  text-align: justify;
-  width:250px;
+
 }
 
 .column img {
-  display: block;
-  margin: 0 auto;
+
 }
