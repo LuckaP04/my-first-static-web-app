@@ -228,10 +228,8 @@ p {
 }
 
 .column p {
-text-align: center ;
-  border-style: solid;
-  border-color: #333333;
-  border-radius: 5px;
+text-align: left ;
+ display: block;
 }
 
 
