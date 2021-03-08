@@ -214,7 +214,6 @@ p {
   padding: 15px;
   width: 250px;
   height: 200px;
-  float: left;
   border-style: solid;
   border-color: #333333;
   border-radius: 5px;
@@ -238,9 +237,7 @@ p {
   margin: 0 auto;
 
 }
-.man {
-  text-align: center;
-}
+
 .column1 {
   margin: 10px 50px;
   float: left;
@@ -253,7 +250,6 @@ p {
   padding: 15px;
   width: 250px;
   height: 200px;
-  float: left;
   border-style: solid;
   border-color: #333333;
   border-radius: 5px;
