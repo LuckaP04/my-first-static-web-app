@@ -323,6 +323,7 @@ button {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  float: right;
 }
 
 button:hover {
@@ -356,7 +357,7 @@ button:hover {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: #474e5d;
+  background-color: rgb(119, 78, 78);
   padding-top: 50px;
 }
 
