@@ -184,7 +184,7 @@ p {
 
 .column img {
   display: block;
-  margin: 0 auto;
+  margin: 0 10px 20px;
 
 }
 /* Style the images inside the grid */
@@ -207,7 +207,7 @@ p {
 
 
 .column1 {
-  text-align: center;
+  text-align: left;
   width:250px;
   margin: 10px 50px;
   float: left;
@@ -215,7 +215,7 @@ p {
 
 .column1 img {
   display: block;
-  margin: 0 auto;
+  margin: 0 10px 20px;
 }
 
 
