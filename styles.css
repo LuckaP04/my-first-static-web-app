@@ -274,7 +274,7 @@ footer{
 }
 
 footer a {
-  float: end;
+  float:bottom;
   padding-left: 5px;
   text-align: left;
   color: white;
