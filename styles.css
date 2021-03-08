@@ -204,6 +204,7 @@ p {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   margin: 10px 50px;
+  border-style: solid;
 
 }
 
@@ -222,8 +223,9 @@ p {
   transform:scale(1.1);
 }
 
+.column p {
 
-
+}
 
 
 
