@@ -214,7 +214,7 @@ p {
   cursor: pointer;
   padding: 15px;
   width: 250px;
-  height: 250px;
+  height: 200px;
   float: left;
   border-style: solid;
   border-color: #333333;
@@ -227,31 +227,13 @@ p {
   transform:scale(1.1);
 }
 
-.column p {
-horiz-align:left ;
-  vertical-align: text-bottom;
 
-}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-}
-
-.flex-container .box {
-  background-color: #f1f1f1;
-  width: 50%;
-  margin: 10px;
-  text-align: revert;
-  line-height: 25px;
-  font-size: 15px;}
-
-.img-with-text {
+.column {
   text-align: justify;
   width:250px;
 }
 
-.img-with-text img {
+.column img {
   display: block;
   margin: 0 auto;
 }
