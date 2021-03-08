@@ -219,7 +219,7 @@ p {
   border-style: solid;
   border-color: #333333;
   border-radius: 5px;
-  text-align: unset;
+  text-align: match-parent;
 }
 
 .column img:hover {
