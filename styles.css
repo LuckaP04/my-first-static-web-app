@@ -277,17 +277,7 @@ p {
   margin: 0 auto;
 }
 
-footer{
-  background-color:white;
 
-}
-
-footer a {
-  float:bottom;
-  padding-left: 5px;
-  text-align: left;
-  color: white;
-}
 
 
 /* Full-width input fields */
@@ -335,7 +325,10 @@ button:hover {
   padding: 14px 20px;
   background-color: #f44336;
 }
-
+.signupbtn{
+  padding: 14px 20px;
+  background-color: forestgreen;
+}
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
   float: left;
@@ -415,7 +408,7 @@ form.example input[type=text] {
 }
 
 form.example button {
-  float: start;
+  align-items: self-end;
   width: 20%;
   padding: 10px;
   background: rgb(119, 78, 78);
@@ -434,4 +427,18 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+.kids{
+  float: end;
+}
+footer{
+   background-color:white;
+float-defer-column: last;
+ }
+
+footer a {
+  float:bottom;
+  padding-left: 5px;
+  text-align: left;
+  color: white;
 }
