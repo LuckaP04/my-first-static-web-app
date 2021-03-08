@@ -214,6 +214,7 @@ p {
   padding: 15px;
   width: 200px;
   float: left;
+  flex-direction: column;
 }
 
 .column img:hover {
