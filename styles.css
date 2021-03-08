@@ -248,13 +248,14 @@ input[type=text]:focus, input[type=password]:focus {
 button {
   background-color:rgb(119, 78, 78) ;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 15px 20px;
+  margin: 8px 10px;
   border: none;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
   float: right;
+
 }
 
 button:hover {
@@ -379,12 +380,11 @@ form.example::after {
 
 
 
-.kids{
-  float: end;
-}
+
+
 footer{
    background-color:white;
-float-defer-column: last;
+display: block;
  }
 
 footer a {
