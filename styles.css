@@ -277,8 +277,14 @@ p {
   margin: 0 auto;
 }
 
-
 footer{
-  float: left;
+  background-color: #333333;
+  margin: 10px 10px;
+}
+
+footer a {
+  float: end;
   padding-left: 5px;
+  text-align: left;
+  color: white;
 }
