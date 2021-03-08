@@ -204,7 +204,7 @@ p {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   margin: 10px 50px;
-
+  float: left;
 }
 
 /* Style the images inside the grid */
@@ -229,7 +229,7 @@ p {
 
 .column {
   text-align: justify;
-  width:200px;
+  width:250px;
 
 }
 
