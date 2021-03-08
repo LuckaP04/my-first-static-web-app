@@ -228,8 +228,9 @@ p {
 }
 
 .column p {
-text-align: left ;
- display: block;
+horiz-align:left ;
+  vertical-align: text-bottom;
+
 }
 
 
