@@ -44,7 +44,7 @@ h4{
   font-size: 20px;
   font-style: normal;
   font-family: serif;
-  padding-left: 30px;
+  padding-left: 50px;
 
 }
 
@@ -318,7 +318,7 @@ hr {
 
 .column img {
   display: block;
-  margin: 20px 20px;
+  margin: 30px 30px;
 
 }
 .quantity{
@@ -353,18 +353,22 @@ float:left;
 
 .column1 img {
   display: block;
-  margin: 20px 20px;
+  margin: 30px 30px;
+}
+
+.contacs{
+  text-align: left;
+  width:350px;
+  margin: 30px 30px;
+  float: bottom;
 }
 
 
 
 
-
-
 footer{
-   background-color:white;
-display: block;
-  float:bottom;
+   background-color: white;
+  float: bottom;
  }
 
 footer a {
